@@ -20,4 +20,4 @@ def user(username):
     return render_template('user.html', username=username)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
